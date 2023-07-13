@@ -18,6 +18,14 @@ Complete the insert_data.sh script to correctly insert all the data from games.c
 Complete the empty echo commands in the queries.sh file to produce output that matches the expected_output.txt file. The file has some starter code, and the first query is completed for you. Use the PSQL variable defined to complete rest of the queries. Note that you need to have your database filled with the correct data from the script to get the correct results from your queries. Hint: Test your queries in the psql prompt first and then add them to the script file.
 
 # Screenshot
+## Part 1: Create the database
+### Games Tables
+![Captura2](https://github.com/AndresF-SanchezG/postgres-challenge2/assets/113924667/cb295599-e538-4eb7-bc21-15b6f193b903)
+![Captura2](https://github.com/AndresF-SanchezG/postgres-challenge2/assets/113924667/39b5c6de-f36c-471e-bd38-40ccb2e32bc8)
+
+## Part 2: Insert the data
+![C![Captura2](https://github.com/AndresF-SanchezG/postgres-challenge2/assets/113924667/5bbb8aa7-4acf-4111-9b90-70a070e0592c)
+aptura2](https://github.com/AndresF-SanchezG/postgres-challenge2/assets/113924667/e042cf59-9d34-4cd2-a564-0c70a8c1c74e)
 
 
 
