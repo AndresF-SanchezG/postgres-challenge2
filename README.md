@@ -3,50 +3,26 @@
 For this project, you will create a Bash script that enters information from World Cup games into PostgreSQL, then query the database for useful statistics.
 
 # Targets
-- You should create a database named universe.
-- Be sure to connect to your database with \c universe. Then, you should add tables named galaxy, star, planet, and moon.
-- Each table should have a primary key.
-- Each primary key should automatically increment.
-- Each table should have a name column.
-- You should use the INT data type for at least two columns that are not a primary or foreign key.
-- You should use the NUMERIC data type at least once.
-- You should use the TEXT data type at least once.
-- You should use the BOOLEAN data type on at least two columns.
-- Each "star" should have a foreign key that references one of the rows in galaxy.
-- Each "planet" should have a foreign key that references one of the rows in star.
-- Each "moon" should have a foreign key that references one of the rows in planet.
-- Each table should have at least three rows.
-- The galaxy and star tables should each have at least six rows.
-- The planet table should have at least 12 rows.
-- The moon table should have at least 20 rows.
-- Each table should have at least three columns.
-- The galaxy, star, planet, and moon tables should each have at least five columns.
-- At least two columns per table should not accept NULL values.
-- At least one column from each table should be required to be UNIQUE.
-- All columns named name should be of type VARCHAR.
-- Each primary key column should follow the naming convention table_name_id. For example, the moon table should have a primary key column named moon_id.
-- Each foreign key column should have the same name as the column it is referencing.
+ ### Part 1: Create the database
+
+Log into the psql interactive terminal with psql --username=freecodecamp --dbname=postgres and create your database structure according to the user stories below.
+
+Don't forget to connect to the database after you create it.
+
+### Part 2: Insert the data
+
+Complete the insert_data.sh script to correctly insert all the data from games.csv into the database. The file is started for you. Do not modify any of the code you start with. Using the PSQL variable defined, you can make database queries like this: $($PSQL "<query_here>"). The tests have a 20 second limit, so try to make your script efficient. The less you have to query the database, the faster it will be. You can empty the rows in the tables of your database with TRUNCATE TABLE games, teams;
+
+### Part 3: Query the database
+
+Complete the empty echo commands in the queries.sh file to produce output that matches the expected_output.txt file. The file has some starter code, and the first query is completed for you. Use the PSQL variable defined to complete rest of the queries. Note that you need to have your database filled with the correct data from the script to get the correct results from your queries. Hint: Test your queries in the psql prompt first and then add them to the script file.
+
 # Screenshot
 
-### Galaxy table
-![Captura2](https://github.com/AndresF-SanchezG/postgres-challenges/assets/113924667/07b5eb3c-5c9e-4a24-a321-6437435c58f6)
 
-![Captura2](https://github.com/AndresF-SanchezG/postgres-challenges/assets/113924667/bd1b91c6-deaa-4a37-8d6c-4df66df5bbc1)
-
-### Star Table
-![Captura2](https://github.com/AndresF-SanchezG/postgres-challenges/assets/113924667/9e874786-f0ef-40e8-a654-4af006d1d22e)
-![Captura2](https://github.com/AndresF-SanchezG/postgres-challenges/assets/113924667/36f27e23-edf5-442e-b8ae-4480424b3c04)
-
-### Planet Table
-![Captura2](https://github.com/AndresF-SanchezG/postgres-challenges/assets/113924667/f9d9fe6b-3235-47e7-b485-64453730ac0e)
-![Captura2](https://github.com/AndresF-SanchezG/postgres-challenges/assets/113924667/540c672c-60d0-467b-b6a6-d2a07b2402cb)
-
-### Moon Table
-![Captura2](https://github.com/AndresF-SanchezG/postgres-challenges/assets/113924667/a995b2dc-ca61-41ac-8d46-6fc4336754dd)
-![Captura2](https://github.com/AndresF-SanchezG/postgres-challenges/assets/113924667/6ff381e9-9a16-4ea5-8a26-a87b995d295e)
 
 # Author
 
 - Autor - [@AndresF-SanchezG](https://github.com/AndresF-SanchezG)
 - School - [Freecodecamp](https://www.freecodecamp.org/)
-- Curse - [Build a Celestial Bodies Database](https://www.freecodecamp.org/learn/relational-database/build-a-celestial-bodies-database-project/build-a-celestial-bodies-database)
+- Curse - [World Cup Database](https://www.freecodecamp.org/learn/relational-database/build-a-world-cup-database-project/build-a-world-cup-database)
