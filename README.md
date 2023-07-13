@@ -24,7 +24,8 @@ Complete the empty echo commands in the queries.sh file to produce output that m
 ![Captura2](https://github.com/AndresF-SanchezG/postgres-challenge2/assets/113924667/39b5c6de-f36c-471e-bd38-40ccb2e32bc8)
 
 ## Part 2: Insert the data
-![C![Captura2](https://github.com/AndresF-SanchezG/postgres-challenge2/assets/113924667/5bbb8aa7-4acf-4111-9b90-70a070e0592c)
+![Captura2](https://github.com/AndresF-SanchezG/postgres-challenge2/assets/113924667/38e6ddba-146e-4768-aeb3-3a1a78529e07)
+
 aptura2](https://github.com/AndresF-SanchezG/postgres-challenge2/assets/113924667/e042cf59-9d34-4cd2-a564-0c70a8c1c74e)
 
 
